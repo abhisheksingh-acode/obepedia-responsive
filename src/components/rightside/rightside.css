@@ -1,0 +1,96 @@
+.rigthside {
+    border: 1px solid #A5A5A5;
+    padding: 50px 30px 0;
+    position: sticky;
+    top: 6px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.rigthside::-webkit-scrollbar{
+    display: none;
+}
+.sidebar .heading{
+    padding-top: 20px;
+}
+.sidebar .heading h4{
+background: #05A474;
+color: #ffff;
+padding: 10px;
+margin-bottom: 0;
+font-size: 20px;
+width: 300px;
+}
+.sidebar .heading hr{
+    border-top: 1px solid #000;
+    margin-top: 0;
+}
+.sidebar ul.instname li {
+    padding: 5px 0;
+}
+.sidebar ul.instname li a {
+    text-decoration: none;
+    color: #0376A8;
+    font-size: 18px;
+}
+.sidebar .banner{
+    padding: 30px 0;
+}
+.sidebar .banner img {
+    width: 100%;
+}
+
+
+
+
+/*mobile responsive  */
+
+@media only screen and (min-width : 768px) {
+    .post-page .postcard {
+        align-items: start !important;
+    }
+    .post-page .postcard .image img {
+        width: 70px;
+        height: 70px;
+    }
+    .post-page .postcard .text h5 {
+        font-size: 15px !important;
+    }
+    .sidebar .heading h4 {
+        font-size: 17px;
+    }
+    .sidebar ul.instname li a {
+        font-size: 15px;
+    }
+   
+    .rigthside{
+        height: 100%;
+    }
+   
+}
+
+/* By Puneet Shrivastav */
+@media only screen and (max-width : 800px) {
+    .rigthside {
+        border: none;
+        padding: 0px 19px 0;
+        position: unset;
+        /* top: 6px; */
+        height: max-content ;
+        overflow-y: unset;
+    }
+    .institute-rs .rigthside{
+        padding: 0;
+    }
+    .rigthside .sidebar .heading hr {
+        border-bottom: 4px solid #006647 !important;
+        margin-top: 0;
+        opacity: 1;
+        border-top: unset;
+    }
+    .sidebar ul.instname li a {
+        font-size: 17px;
+    }
+    .sidebar .heading h4{
+        width: 250px;
+    }
+}

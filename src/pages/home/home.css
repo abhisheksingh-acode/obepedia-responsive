@@ -1,0 +1,246 @@
+body {
+    overflow-x: hidden;
+    padding-right: 0px;
+    overflow-y: scroll !important;
+}
+.home-banner{
+    padding-top: 100px;
+}
+.home-content {
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 8px;
+}
+
+.home-content p{
+    color: #7D7D7D;
+    }
+.home-content .searches {
+    display: flex;
+    gap: 10px;
+    margin: 30px auto 0;
+}
+
+.home-content .searches .srch {
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.home-content .searches .srch span svg{
+    color: #AEAEAE;
+    margin-right: 8px;
+}
+.home-content .searches .srch input {
+    background: #fff;
+    border: #fff;
+}
+.home-content .searches .srch input:focus-visible{
+    outline: unset;
+}
+.home-content .searches .button button{
+    background: #006647;
+    border-radius: 5px;
+    border: #006647;
+    padding: 10px 50px;
+}
+
+.home-background a {
+    text-decoration: unset;
+}
+
+.home-background {
+    background-color: #006647;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.home-background .home-heading {
+    padding: 80px 0px 40px;
+}
+
+.home-background .home-heading h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.home-background .home-heading .search {
+    background: #fff;
+    padding: 5px 5px 6px 35px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-background .home-heading .search input {
+    background: #fff;
+    border: #fff;
+    width: 100%;
+}
+
+.home-background .home-heading .search input:focus {
+    outline: unset;
+}
+
+.home-background .home-heading .search span {
+    background: #01543B;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.home-background .home-heading .search span a {
+    color: #fff;
+}
+
+.home-background .home-img img {
+    transform: translate(120px, 30px);
+    width: 100%;
+}
+
+.home-background .home-img .review svg {
+    font-size: 17px;
+}
+
+.home-background .home-img .review {
+    background: #fff;
+    padding: 10px 15px;
+    border-bottom-left-radius: 27px;
+    border-top-left-radius: 27px;
+    transform: translate(360px, 10px);
+    width: 200px;
+    color: #05A474;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.home2 .leftside {
+    padding: 50px 0px 0 100px;
+}
+
+.home2 .leftside h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.home2 .leftside .video {
+    padding-bottom: 30px;
+}
+
+.home2 .banner {
+    padding: 30px 0 40px;
+}
+
+.home2 .banner img {
+    width: 100%;
+}
+
+
+/* responsive code */
+@media only screen and (max-width : 768px) {
+    .header-top .navbar {
+        gap: 20px;
+    }
+
+    .home-background .home-heading h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .home-background {
+        overflow-x: hidden;
+    }
+
+    .home-background .home-img .review svg {
+        font-size: 16px;
+    }
+
+    .home-background .home-img .review {
+        padding: 9px 0 9px 9px;
+        transform: translate(270px, -45px);
+        width: 110px;
+        font-size: 12px;
+        gap: 5px;
+    }
+
+    .home-background .home-img img {
+        transform: translate(12px, 10px);
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .home-background .home-heading {
+        padding: 0px 0px 50px;
+    }
+
+    .home2 .leftside {
+        padding: 20px 20px;
+    }
+
+    .home2 .leftside .video iframe {
+        height: auto;
+    }
+
+    .home2 {
+        overflow-x: hidden;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .home-background .home-img .review {
+        display: none;
+    }
+
+    .home-background .home-heading h1 {
+        color: #fff;
+        font-size: 50px;
+    }
+
+    .home-background .flex-column-reverse {
+        flex-direction: row !important;
+    }
+
+    .home-background .home-img img {
+        transform: translate(59px, 30px);
+        width: 100%;
+    }
+
+    /* .home2{
+        overflow-x: hidden;
+    } */
+    /* .home2 .leftside{
+        padding: 50px 0px 0 50px;
+    } */
+}
+
+
+/* By Puneet Shrivastav */
+
+@media screen and (max-width:800px) {
+    .home-background {
+        height: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+
+    .home2 .leftside h3 {
+        font-weight: 600;
+        padding-bottom: 9px;
+        border-bottom: 3px solid #006647;
+        margin-bottom: 20px;
+    }
+
+}

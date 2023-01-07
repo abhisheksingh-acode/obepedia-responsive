@@ -1,0 +1,34 @@
+.user-details-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-details-form input{
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 5px;
+}
+
+.user-details-form button{
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 5px;
+    border: none;
+    background-color: #006647;
+    color: white;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:520px){
+    .user-details-form{margin-top: 50px}
+    .user-details-form input,
+    .user-details-form button{
+        margin-bottom: 20px;
+        width: 320px;
+        padding: 5px;
+    }
+    
+    
+}

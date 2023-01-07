@@ -1,0 +1,82 @@
+#mob-nav>.mob-nav-top {
+    display: flex;
+    background: #006647;
+    justify-content: space-between;
+    padding: 15px 10px;
+    color: white;
+}
+
+nav#mob-nav .mob-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav#mob-nav .mob-img-c img {
+    height: 26px;
+    cursor: pointer;
+}
+
+nav#mob-nav .mob-nav-title a {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: unset;
+}
+
+nav#mob-nav .mob-nav-title a:hover {
+    color: #fff;
+}
+
+nav#mob-nav .mob-nav-right {
+    display: flex;
+    align-items: center;
+}
+
+nav#mob-nav .mob-nav-right img {
+    margin-left: 10px;
+}
+
+nav#mob-nav .mob-nav-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0 0;
+}
+
+nav#mob-nav .mob-nav-bottom input {
+    width: 90%;
+    border-radius: 7px;
+    height: 36px;
+    padding: 10px;
+    font-weight: 600;
+    border: 0.2px solid #d8d8d8;
+}
+
+nav#mob-nav .mob-nav-bottom input::placeholder {
+    color: #939191;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+nav#mob-nav .banner-img img {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+#mob-nav {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+
+    #mob-nav {
+        display: block;
+    }
+
+    nav#mob-nav {
+        background: #fff;
+    }
+}

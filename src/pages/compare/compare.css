@@ -1,0 +1,196 @@
+.compare-page{
+    padding: 50px 100px;
+}
+.compare-page .search{
+    border: 1px solid #C8C6C6;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.compare-page .search input{
+    border: #fff;
+}
+.compare-page .search input:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+
+.compare-page .gap{
+    gap: 40px;
+    justify-content: end;
+}
+.compare-page .card-item span.plus svg{
+    font-size: 50px;
+    color: #CACACA;
+     align-items: center;
+     margin: 106px 0%;
+     cursor: pointer;
+}
+.compare-page h5.titile {
+    color: #006647;
+}
+
+.compare-page ul li {
+    color: #949292;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.compare-page ul li p{
+    color: #000;
+    font-size: 14px;
+}
+.compare-page .accordion{
+    margin-top: 30px;
+}
+.compare-page .accordion-item{
+    border-top: 1px solid #919191;
+    border-bottom: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    border-radius: unset !important;
+}
+/* .compare-page .accordion-item:nth-child(3){
+   background-color: red;
+} */
+.compare-page .accordion-item button {
+    background: #fff !important;
+    border-radius: unset;
+}
+.compare-page .accordion-item button:focus{
+    box-shadow: unset;
+}
+.compare-page .choosecard{
+    text-align: center;
+    padding: 50px 0;
+}
+.compare-page .choose {
+    justify-content: space-evenly;
+}
+/* .compare-page .choose .card-item{
+    width: auto;
+} */
+.compare-page .choose button{
+    transform: translate(0px, 80px);
+}
+.compare-page .choose .form-switch .form-check-input {
+    width: 10em;
+    margin-left: -0.5em;
+    height: 20px;
+}
+.comparison {
+    padding: 0 0px 50px 100px;
+}
+
+
+/* compare popup */
+.compare-popup .modal-dialog{
+    margin-top: 100px;
+}
+.compare-popup .modal-body {
+    padding: 30px 50px;
+    text-align: center;
+}
+.compare-popup .modal-body p{
+    background: #8C8C8C;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.compare-popup .modal-body button{
+    background: #006647;
+    border: #006647;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-top: 100px;
+}
+.compare-popup .modal-body button:hover{
+    background: #006647;
+    border: #006647;
+}
+
+
+
+/*mobile responsive  */
+
+
+@media only screen and (max-width: 992px){
+    .compare-page {
+        padding: 50px 50px;
+        overflow-x: hidden;
+    }
+    .compare-page ul {
+        padding-left: 0px;
+    }
+
+}
+
+/* ONLY THIS ONE BY PUNEET SHRIVASTAV */
+
+@media screen and (max-width:800px){
+    .comparison {
+        padding: 0px 20px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .compare-page .search {
+        width: 100%;
+    }
+    .compare-page {
+        padding: 20px;
+    }
+    .compare-page ul {
+        padding-left: 0;
+    }
+    .compare-page .gap {
+        display: unset !important;
+    }
+    .compare-page h5.titile {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .compare-page .accordion-body{
+        padding: 0;
+    }
+    .compare-page .choose {
+        display: unset !important;
+    }
+    
+    .compare-page .choose button {
+        transform: unset;
+    }
+    .comparison {
+        padding: 0 20px;
+    }
+    .comparison .card-item{
+        padding: 20px 10px;
+    }
+    .comparison .card-item h4 {
+        font-size: 17px;
+        height: 60px;
+    }
+    .comparison .card-item p {
+        font-size: 14px;
+    }
+    .comparison .backgro span{
+        width: 40px;
+        height: 40px;
+        line-height: 37px;
+        transform: translate(133px, -165px);
+    }
+    .compare-popup .modal-body {
+        padding: 30px 50px;
+    }
+    
+}
+

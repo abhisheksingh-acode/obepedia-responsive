@@ -1,0 +1,152 @@
+.rating-page {
+  padding-bottom: 50px;
+}
+.rating-page h6 {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.rating-page .rate img {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.rating-page button {
+  width: 100%;
+  background: #006647;
+  border: #006647;
+  color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.rating-page .review p {
+  font-size: 14px;
+}
+.rating-page .review .well.well-sm {
+  padding-bottom: 50px;
+}
+.rating-page .review .rating-desc .fa-star {
+  color: #00e19e;
+  font-size: 9px;
+}
+.rating-page .review .rating {
+  padding-bottom: 20px;
+}
+.rating-page .review .rating svg {
+  color: #00e19e;
+  padding-right: 2px;
+  font-size: 20px;
+}
+.rating-page .review .rating svg.color {
+  color: #e9ecef;
+}
+
+.rating-page .review span.parah {
+  color: #8e8e8e;
+  font-size: 13px;
+}
+
+.rating-page .review .rating-num {
+  margin-top: 0px;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.rating-page .review .progress {
+  margin-bottom: 5px;
+}
+
+.rating-page .review .progress {
+  height: 5px;
+}
+
+.rating-page .review .progress-bar {
+  background: #006647;
+}
+
+.rating-page .review .rating-desc .col-md-3 {
+  padding-right: 0px;
+}
+
+.rating-page .review .sr-only {
+  margin-left: -31px;
+  overflow: visible;
+  clip: auto;
+  font-size: 12px;
+  margin-top: -4px;
+}
+.rating-page .rating-desc {
+  align-items: center;
+  line-height: 12px;
+}
+
+/*mobile responsive  */
+@media only screen and (max-width: 768px) {
+  .rating-page .rating-desc {
+    margin: 20px auto;
+  }
+  .rating-page .review .rating-desc .col-md-3 {
+    text-align: right;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .rating-page .review .rating-desc .col-md-3 {
+    padding-right: 0px;
+    font-size: 11px;
+  }
+  .rating-page .review .rating-num {
+    font-size: 45px;
+  }
+  .rating-page .review .rating svg {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .rating-page .review .sr-only {
+    margin-left: 0;
+    overflow: visible;
+    clip: auto;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .row.rating-desc > .col-8 {
+    padding: 0;
+  }
+}
+.rate {
+  margin-bottom: 20px;
+}
+.checkbox-container.active {
+  background-color: red;
+}
+.checkbox-container.active {
+  background-color: #05a474;
+  color: white;
+}
+.checkbox-container input {
+  display: none;
+  cursor: pointer;
+}
+.checkbox-container label {
+  cursor: pointer;
+}
+
+.checkbox-container {
+  width: 48% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+  cursor: pointer;
+  background: #f1f1f1;
+  margin: 2px 2px;
+  border-radius: 6px;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+}

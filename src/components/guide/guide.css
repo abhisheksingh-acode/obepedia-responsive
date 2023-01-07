@@ -1,0 +1,108 @@
+
+
+ .guide {
+    border: 1px solid #939393;
+    padding: 20px;
+    margin: 50px 100px 0;
+}
+ .guide .heading {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
+
+.hlt{
+    color: #0B825E;
+}
+
+ .guide .left h4 {
+    font-size: 23px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+ .guide .left p span {
+    background: #FFBD3D;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+ .guide .left p{
+    font-size: 15px;
+}
+ .guide .left span {
+    background: #D9D9D9;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #9A9A9A;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+ .guide .left span.review{
+    border: 1px solid #006647;
+    color: #006647;
+    background-color: #fff;
+    margin-left: 10px;
+}
+ .guide .right{
+    text-align: right;
+}
+ .guide .right h6{
+    height: 90px;
+}
+ .guide .right h6 svg {
+    margin-right: 5px;
+    font-size: 19px;
+}
+ .guide .right button{
+    background: #006647;
+    border: #006647;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+@media screen and (max-width:550px){
+    .guide {
+        border: 0px solid #939393;
+        padding: 20px;
+        margin: 0;
+    }
+    .guide .left h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .mt-5.mt-md-0.position-relative.right{
+        margin-top: 17px !important;
+    }
+    .guide .right h6 {
+        height: 35px;
+    }
+    .guide .right button {
+        background: #006647;
+        border: #006647;
+        color: #fff;
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 8px;
+        width: 100%;
+    }
+    .upsc2 .tab-view {
+        /* margin-top: 40px; */
+        /* padding: 0px 100px; */
+        position: relative;
+        top: 12px;
+        left: 0;
+        z-index: 9999999999999999;
+        padding: 10px;
+    }
+    .upsc2 .tab-view ul.nav {
+        border-bottom: 1px solid #c4c4c4;
+        gap: 11px;
+        padding-bottom: 6px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,109 @@
+
+
+.list-page a{
+    color: #fff;
+      text-decoration: unset;
+}
+
+.list-page .list-card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+}
+.list-page .list-card .center{
+    padding-left: 15px;
+}
+.list-page .list-card .center p.location {
+    color: #868686;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.list-page .list-card .center p.location svg {
+    margin-right: 10px;
+}
+.list-page .list-card .center p.location span {
+    color: #006647;
+    padding: 0 5px;
+}
+.list-page .list-card img {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 9px 4px;
+    width: 100px;
+    height: 100px;
+}
+
+.list-page .list-card .left{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 200px;
+}
+.list-page .list-card .left p{
+    font-size: 13px;
+    margin: 0;
+}
+.list-page .list-card .left p span.num{
+color: #8C8C8C;
+}
+.list-page .list-card .left h6{
+    height: 80px;
+}
+.list-page .list-card .left h6 svg{
+    font-size: 20px;
+}
+.list-page .list-card .left span svg {
+    color: #00e19e;
+}
+
+ .list-page .buttons {
+    justify-content: end;
+    padding: 30px 0;
+    gap: 20px;
+}
+ .list-page .buttons button.view {
+    background: #fff;
+    border: 2px solid #006647;
+    color: #006647;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.list-page .buttons button.more {
+    background: #006647;
+    border: #006647;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.list-page .buttons button.more a{
+    color: #fff;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .list-page .buttons {
+        justify-content: center;
+    }
+    .list-page .list-card{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .list-page .list-card img{
+        width: 10%;
+        height: 10%;
+    }
+    .list-page .list-card .center{
+        width: 60%;
+    }
+    .list-page .list-card .left{
+        width: 30%;
+    }
+    .list-page .list-card .center p.location {
+        display: unset;
+        align-items: center;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,14 @@
+.moblist h5.name {
+    padding: 0;
+    font-weight: 600;
+}
+.moblist h5.name a{
+    color: #3b3939;
+    font-family: INHERIT;
+}
+.moblist .logo{
+    padding-bottom: 10px;
+}
+.moblist  p{
+    text-align: justify;
+}

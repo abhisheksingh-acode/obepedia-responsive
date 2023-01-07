@@ -1,0 +1,153 @@
+
+
+/* .container-space {
+    margin: 50px 100px 0;
+} */
+
+.container-space .tab-view {
+    padding: 50px 100px;
+}
+.container-space .tab-view ul.nav {
+    border-bottom: 1px solid #C4C4C4;
+    gap: 30px;
+    padding-bottom: 6px;
+}
+.container-space .tab-view ul.nav li a {
+    text-decoration: unset;
+}
+.container-space .tab-view ul.nav li a {
+    color: #000;
+    font-size: 13px;
+}
+.container-space .tab-view ul.nav li a.active {
+    background: #006647;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.container-space .tab-content{
+    padding: 0px 0 0px 100px;
+}
+.container-space .tab-content .home-banner {
+    padding: 20px 0 30px;
+}
+.container-space .tab-content .admit p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.container-space .tab-content .admit ul li{
+    font-size: 15px;
+}
+.container-space .tab-content table {
+    border: #fff;
+    font-size: 15px;
+}
+.container-space .tab-content thead {
+    background: #006647;
+    color: #fff;
+}
+.container-space .tab-content thead tr th{
+    border-width: 0px;
+    padding: 15px 20px;
+}
+.container-space .tab-content tbody tr td{
+    border-width: 0px;
+    color: #000;
+}
+.container-space .tab-content .result ul li{
+    padding-bottom: 15px;
+}
+.container-space .tab-content .dates tbody tr td{
+background-color: #f2f2f2;
+}
+.container-space .tab-content tbody tr{
+    border-bottom: 20px solid #fff;
+    border-top: 20px solid #fff;
+}
+.rigthside .rightbann .home-banner {
+    padding: 0px;
+}
+.rigthside .rightbann{
+    padding: 50px 0;
+}
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+    .container-space {
+        overflow-x: hidden;
+    }
+    .container-space .guide {
+        margin: 20px;
+    }
+    .container-space .guide .heading {
+        display: unset !important;
+    }
+    .container-space .tab-view {
+        padding: 20px;
+    }
+    .container-space .tab-view ul.nav {
+        gap: 5px;
+        line-height: 35px;
+    }
+    .container-space .tab-content {
+        padding: 20px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .container-space{
+        overflow-x: hidden;
+    }
+    .container-space .guide {
+        margin: 50px 20px 0;
+    }
+    .container-space .tab-view {
+        padding: 50px;
+    }
+    .container-space .tab-content {
+        padding: 0px 0 0px 50px;
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    .container-space .guide .left h4 {
+        font-size: 19px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .container-space .guide .left span.review {
+        border: 1px solid #006647;
+        color: #006647;
+        background-color: #fff;
+        margin-left: 0;
+        display: block;
+        margin-top: 10px;
+        width: 160px;
+        text-align: center;
+    }
+
+
+    /* By Puneet Shrivastav */
+
+    .container-space .tab-view {
+        padding: 25px 20px;
+    }
+    .container-space .tab-content {
+        padding: 0 20px;
+    }
+    
+    
+    /* 
+    .container-space .guide .right h6 {
+        height: 90px;
+        position: absolute;
+        height: max-content;
+        top: 11px;
+    } */
+}

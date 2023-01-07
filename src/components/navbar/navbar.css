@@ -1,0 +1,332 @@
+#navbar {
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: unset;
+}
+
+#topnav .header-top {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#topnav .header-top .navbar .navmenu ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#topnav .header-top .navbar .navmenu ul li a {
+    font-size: 16px !important;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+.green-color #topnav .header-top .navbar .navmenu ul li a {
+    color: #004530;
+}
+
+#topnav .header-top .navbar .navmenu .right .dropdown-toggle::after {
+    display: none;
+}
+
+#topnav .navbar .menu {
+    width: 50px;
+    height: 32px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topnav .navbar .menu .sandwich {
+    background-color: #fff;
+    height: 4px;
+    display: flex;
+}
+
+.green-color #topnav .navbar .menu .sandwich {
+    background-color: #006647;
+}
+
+#topnav .navbar .menu .top {
+    width: 28px;
+}
+
+#topnav .navbar .menu .middle {
+    width: 20px;
+}
+
+#topnav .navbar .menu .bottom {
+    width: 28px;
+}
+
+#topnav .header-top .logo a img {
+    width: 200px;
+}
+
+#topnav .header-top .navmenu {
+    gap: 600px;
+}
+
+#topnav .header-top .right {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+#topnav .header-top .right .drop .dropdown-item a {
+    color: #000;
+}
+
+#topnav .header-top .right .drop .dropdown-item:hover a {
+    color: #fff;
+}
+
+#topnav .header-top .right .drop .dropdown-item:hover {
+    background: #05A474;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.login .dropdown button {
+    background: unset !important;
+    border: unset;
+}
+.register button.started {
+    background: #004530;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 15px;
+    border: #004530;
+}
+.register .dropdown button {
+    background: #004530 !important;
+    border: #004530;
+    padding: 10px 40px;
+}
+
+.green-color .header-top .navbar .logo a img {
+    width: 180px !important;
+}
+
+/*modal popup css */
+.suggestion-box .modal-dialog {
+    margin-top: 100px;
+}
+
+.suggestion-box .modal-content {
+    border: unset !important;
+}
+
+.suggestion-box .modal-content .modal-header {
+    background: #05A474;
+    color: #fff;
+    border-radius: unset;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+.suggestion-box .modal-content .modal-body {
+    padding: 40px;
+}
+
+.suggestion-box .modal-content .modal-body .form-control {
+    background: #F3F3F3;
+    border: #F3F3F3;
+    padding: 10px 25px;
+}
+
+.suggestion-box .modal-content .modal-body .form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgb(5 164 116);
+}
+
+.suggestion-box .modal-content .modal-body .form-control::placeholder {
+    color: #9C9C9C;
+    font-size: 14px;
+}
+
+.suggestion-box .modal-content .modal-body button {
+    background: #05A474;
+    border: #05A474;
+    width: 100%;
+    padding: 10px;
+}
+
+.suggestion-box .modal-content .modal-body button:hover {
+    background-color: #004530;
+    transition: 0.5s;
+}
+
+.logged-person {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logged-person svg {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.logged-person button:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border-color: #004530 !important;
+}
+
+.logged-person button {
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    background: #05A474;
+    border-color: #05A474;
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.logged-person .dropdown-menu.show {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.logged-person .dropdown-menu.show .dropdown-item {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #000;
+    width: 100%;
+}
+
+.logged-person .dropdown-menu.show .dropdown-item a {
+    color: #000;
+}
+
+.logged-person .dropdown-menu.show .dropdown-item:hover a {
+    color: #fff;
+}
+
+.logged-person .dropdown-menu.show .dropdown-item:hover {
+    color: #fff;
+    background-color: #05A474;
+}
+
+.logged-person .dropdown-toggle::after {
+    display: none;
+}
+
+
+
+
+
+
+
+/* mobile responsive code */
+@media only screen and (max-width : 768px) {
+    #offcanvasRight .logo img {
+        width: 180px;
+    }
+
+    /* #offcanvasRight .offcanvas-body a {
+        color: #006647;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    #offcanvasRight .offcanvas-body a:hover {
+        background-color: #006647;
+        color: #fff;
+        border-radius: 8px;
+        width: 60%
+    } */
+
+    #topnav .header-top .right {
+        display: none;
+    }
+
+    .divider-line {
+        border-bottom: 1px solid #e9e9e9;
+        margin-bottom: 10px;
+    }
+    
+    .divider-heading {
+        margin-top: 10px;
+        color: #05a474;
+    }
+    
+    #offcanvasRight .offcanvas-body a {
+        padding: 10px 20px;
+        font-size: 14px;
+        color: black;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    #offcanvasRight .offcanvas-body a:hover {
+        background-color: #05A474;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    .footer-grid {
+        background: #006647;
+        --auto-grid-min-size: 10rem;
+        grid-gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(var(--auto-grid-min-size),1fr));
+        justify-items: center;
+        padding: 0px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width : 768px) {
+    #offcanvasRight .logo img {
+        width: 180px;
+    }
+/* 
+    #offcanvasRight .offcanvas-body a {
+        color: #006647;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    #offcanvasRight .offcanvas-body a:hover {
+        background-color: #006647;
+        color: #fff;
+        border-radius: 8px;
+        width: 60%
+    } */
+}
+
+
+
+
+/* By Puneet */
+
+
+@media screen and (max-width:800px) {
+    #navbar {
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+    }
+}
+
+.signout{
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    color: #006647;
+}

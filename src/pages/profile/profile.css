@@ -1,0 +1,158 @@
+.profile-page {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.logged .logged-person{
+    display: flex;
+}
+.logged .right{
+    display: none !important;
+}
+.profile-page .profile-bg {
+    display: flex;
+    background: #F3F3F3;
+    padding: 20px;
+    border-radius: 10px;
+    /* align-items: baseline; */
+    /* justify-content: space-around; */
+    margin-bottom: 50px;
+    gap: 50px;
+}
+.profile-page .profile-bg .text{
+    width: 70%;
+}
+.profile-page .profile-bg img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.profile-page .profile-bg h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.profile-page .profile-bg p {
+    color: #9B9B9B;
+}
+
+.profile-page .profile-bg span {
+    background: #05A474;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+.profile-page .tab-content form label {
+    color: #000;
+}
+
+.profile-page .tab-content form .value {
+    display: flex;
+    align-items: center;
+    color: #575757;
+}
+
+.profile-page .tab-content form .form-control {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.profile-page .tab-content form .bio {
+    height: 100px;
+}
+
+.profile-page .nav-tabs {
+    border-color: #000;
+    gap: 20px;
+}
+
+.profile-page .nav-tabs .nav-link {
+    color: #000;
+
+}
+
+.profile-page .nav-tabs .nav-link.active {
+    background: #05A474;
+    border-color: #05A474;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.profile-page .nav-tabs .nav-link:hover {
+    background: #05A474;
+    border-color: #05A474;
+    color: #fff;
+    border-radius: 8px;
+}
+.profile-page .tab-content span.editing {
+    background: #05A474;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin: 0 0 0 auto;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+}
+
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+        
+    .profile-page {
+        padding: 20px;
+    }
+    .profile-page .profile-bg{
+        gap: 20px;
+    }
+    .profile-page .profile-bg img {
+        height: 100px;
+        object-fit: contain;
+        width: 100px;
+    }
+    .profile-page .profile-bg span {
+        color: #05a474;
+        font-size: 25px;
+        background-color: unset;
+    }
+    .profile-page .nav-tabs {
+        gap: 10px;
+    }
+    .profile-page .nav-tabs .nav-link {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    /* .profile-page {
+        padding-left: 50px;
+    } */
+    .profile-page .profile-bg{
+        gap: 20px;
+    }
+    .profile-page .profile-bg span {
+        width: 55px;
+        height: 40px;
+        font-size: 20px;
+    }
+ 
+    #topnav .header-top .navmenu{
+        display: none !important;
+    }
+}
+

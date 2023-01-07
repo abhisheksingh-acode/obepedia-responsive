@@ -1,0 +1,43 @@
+
+.post-page .postcard {
+    align-items: center;
+    gap: 20px;
+}
+.post-page .postcard .image span{
+    background: #05A474;
+    color: #fff;
+    width: 25px;
+    border-radius: 65%;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+    transform: translate(-8px, 12px);
+}
+.post-page .postcard .text {
+   padding-top: 25px;
+
+}
+.post-page .postcard .text h5 {
+    font-size: 20px;
+}
+.post-page .postcard .text p{
+color: #9C9C9C;
+font-size: 15px;
+}
+
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+    .post-page .postcard .image img {
+        width: 80px;
+        height: 80px;
+    }
+    .post-page .postcard .text h5 {
+        font-size: 17px;
+    }
+    .post-page .postcard .text p {
+        font-size: 14px;
+    }
+}

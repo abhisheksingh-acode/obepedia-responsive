@@ -1,0 +1,59 @@
+.home-accordion {
+    padding-top: 40px;
+}
+
+.home-accordion .accordion .accordion-item button {
+    color: #004530;
+    background: #fff;
+    box-shadow: unset;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.home-accordion .accordion .accordion-item {
+    border: 1px solid #AEAEAE;
+    margin-bottom: 30px;
+    border-radius: unset;
+    padding: 25px 20px;
+}
+
+.home-accordion .accordion .accordion-item .accordion-body {
+    padding: 20px 50px 0 20px;
+}
+
+
+
+
+
+/* responsive code */
+@media only screen and (max-width : 768px) {
+    .home-accordion .accordion .accordion-item button {
+        font-size: 17px;
+    }
+}
+
+
+/* By Puneet Shrivastav */
+
+@media screen and (max-width:800px){
+    .home-accordion .accordion .accordion-item {
+        margin-bottom: 30px;
+        border-radius: unset;
+        padding: 10px 0px;
+        border: none;
+    }
+    
+    .accordion-header button {
+        font-weight: 700 !important;
+        color: #006647 !important;
+    }
+    .accordion-header button::after{
+       display: none;
+    }
+    
+    
+    .home-accordion .accordion .accordion-item .accordion-body {
+        padding: 10px 0;
+        text-align: justify;
+    }
+}

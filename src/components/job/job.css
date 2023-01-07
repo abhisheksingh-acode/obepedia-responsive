@@ -1,0 +1,79 @@
+
+.slide-main {
+    padding: 10px 20px 20px;
+}
+.job-slider .job-card {
+    box-shadow: 0px 4px 11px rgb(0 0 0 / 25%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.job-slider .top{
+    padding-bottom: 10px;
+}
+.job-slider .top h6 {
+    background: #A6E3FD;
+    color: #02638C;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.job-slider .job-card .center {
+    align-items: center;
+    justify-content: space-between;
+    color: #868686;
+}
+.job-slider .job-card .center p{
+    font-size: 13px;
+}
+
+.job-slider .job-card button{
+    background: #006647;
+    border: #006647;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 30px;
+    height: 45px;
+    color: #fff;
+}
+.job-slider .job-card button a{
+    color: #fff;
+}
+/* .job-slider .slick-list{
+    padding: 20px 0;
+}
+
+
+.job-slider .slick-prev{
+    left: -25px;
+} */
+
+.job-slider .slick-prev, .slick-next{
+    line-height: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    text-align: center;
+}
+.job-slider .slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    line-height: 45px;
+} 
+
+
+
+@media only screen and (max-width : 768px) {
+    /* .slide-main {
+        padding: 0px;
+    } */
+    .job-slider .slick-prev {
+        left: -16px;
+    }
+    .job-slider .slick-next {
+        right: -16px;
+    }
+}

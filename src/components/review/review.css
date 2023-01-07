@@ -1,0 +1,40 @@
+.write-rev {
+    padding-top: 30px;
+}
+
+.write-rev svg {
+    color: #00e19e;
+    padding-right: 2px;
+    font-size: 23px;
+}
+
+.write-rev svg.color {
+    color: #e9ecef;
+}
+
+.write-rev textarea {
+    background: #F3F3F3;
+    border: #F3F3F3;
+    padding: 15px 20px;
+}
+
+.write-rev button {
+    background: #006647;
+    border: #006647;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    float: right;
+    font-size: 15px;
+}
+.write-rev button{
+    margin-bottom: 50px;
+}
+
+
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+   
+}

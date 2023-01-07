@@ -1,0 +1,68 @@
+
+
+
+.comparison .backgro{
+    background-color: #F0F0F0;
+    padding: 0 20px 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    border-right: 30px solid #FFF;
+    border-left: 20px solid #fff;
+}
+.comparison .backgro .card-item button{
+    display: none;
+}
+.comparison .backgro .card-item {
+    width: 100%;
+    margin-bottom: 0%;
+}
+.comparison .backgro span{
+    width: 50px;
+    height: 50px;
+    background: #006647;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    transform: translate(275px, -165px);
+}
+.comparison .backgro button{
+    background: #006647;
+    border: #006647;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.comparison .slide-main .slick-prev{
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+    .comparison .backgro{
+        border-right:unset;
+        border-left: unset;
+        padding: 10px 10px 20px;
+    }
+    .comparison .backgro span {
+        width: 45px;
+        height: 45px;
+        line-height: 43px;
+        transform: translate(439px, -312px);
+        /* display: none; */
+    }
+    .d-flex.flex-column.flex-sm-row.gap-3 .card-item{
+        margin-top: 0 !important;
+    }
+}

@@ -1,0 +1,59 @@
+.mob-vacancy .top h5 {
+    background: #A6E3FD;
+    color: #02638C;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 70px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.mob-vacancy .job-card {
+    background: #FFFFFF;
+    border: 1px solid #9C9C9C;
+    border-radius: 8px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+.mob-vacancy .job-card .top {
+    align-items: start;
+}
+
+.mob-vacancy .job-card .title h6 {
+    margin-bottom: 5px !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mob-vacancy .job-card .top p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+}
+
+.mob-vacancy .job-card .top .title span {
+    color: #868686;
+    font-size: 12px;
+    padding-right: 15px;
+}
+.mob-vacancy .job-card .title svg {
+    color: #868686;
+    font-size: 17px;
+}
+.mob-vacancy .job-card p.location{
+    color: #868686;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mob-vacancy .job-card p.location svg {
+    font-size: 17px;
+}
+.mob-vacancy .job-card p.parah{
+    margin: 0;
+}

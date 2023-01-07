@@ -1,0 +1,141 @@
+
+
+.comapre-bread {
+    background: #05A474;
+    padding: 50px 100px 150px 100px;
+}
+
+.comapre-bread .search {
+    border: 1px solid #fff;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.comapre-bread .search input {
+    border: #fff;
+    width: 100%;
+    background: transparent;
+}
+
+.comapre-bread .search input::placeholder {
+    font-size: 15px;
+}
+
+.comapre-bread .search input:focus {
+    box-shadow: unset;
+    outline: unset;
+}
+.compare-pages{
+    padding: 50px 100px;
+    position: relative;
+}
+.compare-pages .choose {
+    gap: 40px;
+    justify-content: center;
+}
+.compare-pages .compare-shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 3.76955px 24.5021px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: -6%;
+    left: 7%;
+    right: 7%;
+}
+
+.compare-pages .compare-shadow .content {
+    padding: 50px 30px;
+    width: 100%;
+    height: 300px;
+}
+
+.compare-pages .compare-shadow .content h6 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.compare-pages .compare-shadow .content:last-child {
+    border: none;
+}
+
+.compare-pages .compare-shadow .content {
+    padding: 30px;
+    border-right: 2px solid #C8C6C6;
+}
+
+.compare-pages .compare-shadow .content p {
+    color: #7D7D7D;
+}
+
+.compare-pages .institute {
+    margin: 200px 0 50px;
+}
+
+.compare-pages .course-detail {
+    background: #FFFFFF;
+    border: 1px solid #C8C6C6;
+    display: flex;
+}
+
+.compare-pages .course-detail .content {
+    padding: 50px 30px;
+    width: 100%;
+}
+
+.compare-pages .course-detail .content h6 {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.compare-pages .course-detail .content:last-child {
+    border: none;
+}
+
+.compare-pages .course-detail .content {
+    padding: 50px 30px;
+    border-right: 2px solid #C8C6C6;
+}
+
+.compare-pages .course-detail .content p {
+    color: #7D7D7D;
+}
+
+.compare-pages .institute ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.compare-pages .institute ul li {
+    border: 1px solid #C8C6C6;
+    width: 100%;
+    padding: 15px;
+    color: #05A474;
+    list-style: none;
+}
+
+.compare-pages .compare-shadow .content p.abt{
+    height: 120px;
+    overflow: hidden;
+}
+.compare-pages .compare-shadow .content p.abt::-webkit-scrollbar {
+    display: none;
+  }
+
+  .src-btn{
+    margin-top: 11px;
+    height: 35px;
+    border-radius: 6px;
+    padding: 5px;
+    background: #006647;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

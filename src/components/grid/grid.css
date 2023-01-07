@@ -1,0 +1,98 @@
+
+
+.grid-card {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+.grid-card a{
+    color: #fff;
+    text-decoration: unset;
+}
+.grid-card h5.name {
+    padding: 20px 0 10px;
+}
+.grid-card .logo img {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 9px 4px;
+    width: 100px;
+    height: 100px;
+}
+.grid-card .logo {
+    gap: 10px;
+}
+.grid-card .logo p{
+    margin: 0;
+    font-size: 13px;
+}
+.grid-card .logo p span{
+color: #8C8C8C;
+}
+
+.grid-card .logo h6 svg{
+    font-size: 20px;
+}
+.grid-card .logo .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+}
+.grid-card .logo .center span svg{
+color: #00e19e;
+}
+
+.grid-card p.location{
+    color: #868686;
+    font-size: 14px; 
+    display: flex;
+    align-items: center;
+}
+.grid-card p.location svg{
+    margin-right: 10px;
+}
+.grid-card p.location span{
+color: #006647;
+padding: 0 5px;
+}
+.grid-card .buttons {
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.grid-card .buttons button.view {
+    background: #fff;
+    border: 2px solid #006647;
+    color: #006647;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.grid-card .buttons button.more {
+    background: #006647;
+    border: #006647;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width : 768px) {
+    .grid-card .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .grid-card .logo {
+        justify-content: start;
+        align-items: start;
+    }
+    /* .grid-card .buttons {
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+    } */
+}

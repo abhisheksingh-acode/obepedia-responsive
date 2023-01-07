@@ -1,0 +1,73 @@
+.green-color .header-top .navbar .navmenu a.nav-link-lg {
+    color: #004530 !important;
+}
+
+.green-color #topnav .header-top .register {
+    color: #fff !important;
+}
+
+.listing-page {
+    padding-left: 100px;
+}
+
+.listing-page .home-banner {
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.listing-page .filter-mob {
+    display: none;
+}
+
+.listing-page .mob-list {
+    display: none;
+}
+
+
+/*mobile responsive  */
+@media only screen and (max-width : 768px) {
+    .listing-page {
+        padding: 20px;
+    }
+
+    .listing-page .home-banner {
+        padding-right: 0px;
+    }
+
+    .listing-page .filter-mob {
+        display: block;
+    }
+
+    .listing-page .mob-list {
+        display: block;
+    }
+
+    .listing-page .pc-grid {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .listing-page {
+        /* padding-left: 50px; */
+        overflow-x: hidden;
+    }
+
+    .filter .left {
+        width: 50%;
+    }
+
+    .filter .right {
+        width: 50%;
+    }
+
+    .filter .left .search {
+        padding: 5px;
+    }
+
+    .filter .right .dropdown {
+        gap: 1px;
+    }
+}

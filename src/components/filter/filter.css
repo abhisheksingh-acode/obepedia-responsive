@@ -1,0 +1,178 @@
+
+
+.PC-filter {
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.PC-filter .left{
+    width: 70%;
+}
+.PC-filter .left .search{
+    border: 1px solid #C8C6C6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.PC-filter .left .search input{
+    border: #fff;
+}
+.PC-filter .left .search input:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+/* .PC-filter .left button {
+    background-color: #fff !important;
+    color: #004530 !important;
+    border-color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 40px;
+    width: 100px;
+    padding: 3px 0;
+    text-align: left;
+    line-height: 50px;
+} */
+.PC-filter .left button.filt-btn {
+    background: #fff;
+    border: #fff;
+    position: relative;
+    font-size: 19px;
+    color: #004530;
+}
+.PC-filter .left button:hover{
+    border-color: #fff;
+}
+.PC-filter .left .filt-content {
+    position: absolute;
+    background: #fff;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 25%);
+    margin-top: 25px;
+    z-index: 9;
+}
+.PC-filter .left .filt-content  h6{
+    font-size: 19px;
+}
+.PC-filter .left .filt-content .accordion-item {
+    border: unset;
+}
+.PC-filter .left .filt-content .accordion-item .accordion-button:not(.collapsed){
+    background-color: #fff;
+    box-shadow: unset;
+}
+.PC-filter .left .filt-content .accordion-item .accordion-button:focus{
+    box-shadow: unset;
+    color: #006647;
+}
+.PC-filter .left .filt-content .accordion-item .form-check-reverse label{
+    font-size: 14px;
+}
+.PC-filter .left .filt-content .form-check-reverse{
+    text-align: left;
+}
+.PC-filter .left .filt-content .form-check-input:checked {
+    background-color: #05a474;
+    border-color: #05a474;
+}
+.PC-filter .left .filt-content .rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PC-filter .left .filt-content .rating svg {
+    color: #00e19e;
+    padding-right: 2px;
+    font-size: 23px;
+}
+.PC-filter .left .filt-content .rating svg.color {
+    color: #e9ecef;
+}
+.PC-filter .left .filt-content .range {
+    padding: 20px 0 0 0;
+}
+.PC-filter .right {
+    text-align: right;
+}
+.PC-filter .right svg {
+    font-size: 20px;
+    margin-right: 10px;
+        cursor: pointer;
+}
+.PC-filter .right button{
+    background: #fff;
+    border: 2px solid #006647;
+    color: #006647;
+}
+.PC-filter .right button:hover{
+    background-color: unset;
+    border: 2px solid #006647;
+    color: #006647;
+}
+.PC-filter .right .dropdown span{
+    color: #004530;
+}
+.PC-filter .right .dropdown {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    transform: translate(40px, 28px);
+    z-index: -1;
+    position: unset;
+}
+.PC-filter .right .dropdown-menu.show {
+    display: block;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 25%);
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    
+    .PC-filter .left .filt-content{
+        width: 50%;
+    }
+    .PC-filter .left .search input {
+        border: #fff;
+        width: 100%;
+    }
+    .PC-filter .left {
+       display: none;
+    }
+    .PC-filter .right{
+        display: none;
+    }
+  
+}
+
+
+@media screen and (max-width:600px){
+/* 
+.filter .left {
+    width: 100%;
+}
+.filter .right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.filter .right .dropdown {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    transform: unset;
+    z-index: -1;
+    position: unset;
+} */
+
+}
